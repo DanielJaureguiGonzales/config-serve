@@ -4,7 +4,7 @@ build:
 inventory:
   message: "API's del microservicio inventario en producción"
   contactDetails:
-    name: "Pepe Maduro - Product Owner"
+    name: "Ricardo Gonzales - Product Owner"
     email: "{cipher}e45880e5c4faa749914a6686a2a135cf8a0aa4e997ad232a3ae3c6aeb2ce898b"
   onCallSupport:
     - "{cipher}4a90984e8d59fbb397ee4021175d269c4853fff8cce0cc11cff212b85e3b2a66"
