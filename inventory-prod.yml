@@ -5,7 +5,7 @@ inventory:
   message: "API's del microservicio inventario en producción"
   contactDetails:
     name: "Jane Doe - Product Owner"
-    email: "jane@eazybank.com"
+    email: "{cipher}89121530658b41495b9c7cea6e7f74c3e2225f1580136bcd1730dde0a22d897cee0b5dc6797a9f5035bdeb8ef24fc50a"
   onCallSupport:
-    - 985 415 752
-    - 921 995 214
+    - {cipher}4a90984e8d59fbb397ee4021175d269c4853fff8cce0cc11cff212b85e3b2a66
+    - {cipher}fd6c83b7128a4df21b1248a2e1a034efa22186dcd927a0d41fe2f8831aec149e
