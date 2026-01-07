@@ -1,21 +1,3 @@
-server:
-  port: 8080
-
-spring:
-  datasource:
-    username: dev
-    password: ''
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:testdb
-  h2:
-    console:
-      enabled: true
-  jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
-    show-sql: true
-    hibernate:
-      ddl-auto: update
-
 build:
   version: "3.0"
 
