@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+inventory:
+  message: "API's del microservicio inventario en QA"
+  contactDetails:
+    name: "Laura Gonzales - Equipo QA"
+    email: "laura@eazybank.com"
+  onCallSupport:
+    - 944 457 884
+    - 932 321 748

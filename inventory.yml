@@ -1,0 +1,29 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: dev
+    password: ''
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+  h2:
+    console:
+      enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+build:
+  version: "3.0"
+
+inventory:
+  message: "API's del microservicio inventario"
+  contactDetails:
+    name: "Jhon Doe - Programador"
+    email: "jhon@eazybank.com"
+  onCallSupport:
+    - 985 658 601
+    - 921 448 474
