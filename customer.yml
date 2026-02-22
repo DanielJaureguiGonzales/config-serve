@@ -1,0 +1,15 @@
+
+
+spring:
+  datasource:
+    username: '{cipher}4a6db3cee99d0247d281f064d53a4538eb64b22633fc78c671f6e56e650206f9'
+    password: '{cipher}11aa3f37eb14ca4a4379bc2286025dbfe7f20c93dbc62c677e3794263c88df7e'
+    url: jdbc:h2:mem:testdb
+  h2:
+    console:
+      enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
