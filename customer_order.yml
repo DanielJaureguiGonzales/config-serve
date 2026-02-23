@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    username: '{cipher}356869e21dd13cd775162da1d16aa50a875b9533a4e16dc82e48546165e054e4'
+    password: '{cipher}68610e9154367e5d1a038b3d5948101b30da4bc03f6d40583b90f57f126f5cc1'
+    url: jdbc:h2:mem:testdb
+  h2:
+    console:
+      enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8070/eureka
+    register-with-eureka: true
+    fetch-registry: true
